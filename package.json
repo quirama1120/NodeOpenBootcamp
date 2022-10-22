@@ -1,0 +1,13 @@
+{
+  "name": "openbootcampjs",
+  "version": "1.0.0",
+  "description": "primera tarea manipulación básica con package.json",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "saludo":"Hola, este es mi primer ejercicio con Node en el mejor Bootcamp de programación del mundo",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Quirama",
+  "license": "ISC"
+}
