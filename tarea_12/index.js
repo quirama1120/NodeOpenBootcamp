@@ -13,17 +13,21 @@ const logger = winston.createLogger({
     new winston.transports.File({ filename: 'combined.log' }),
   ],
 });
-logger.error("probando el error con logger y winston")
-module.exports = logger;
-function suma(...parametros) {
-    parametros.reduce((a,b) => a+b)
-} 
+// 
+const doble = val => {
+  if(typeof val === "number") {
+    return 2 * val;
+  }
+  throw new Error("el tipo de valor tiene que ser un numero")
+}
 
-try {
-    const resultado = suma(2,3,4,5,6,8)
+
+  try {
+    const resultado = doble("d")
     console.log(resultado)
-} catch (e) {
-    throw new Error("Error!", {cause: e})
+  }
+ catch (error) {
+  console.error(error)
 } finally {
-    console.log("esto ocurre si o si")
+  console.log("se ejecuta si o si")
 }
