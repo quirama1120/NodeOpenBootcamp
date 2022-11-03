@@ -1,0 +1,17 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"type": "npm",
+			"script": "start",
+			"path": "tarea_13",
+			"problemMatcher": [],
+			"label": "npm: start - tarea_13",
+			"detail": "node index.js",
+			"group": {
+				"kind": "build",
+				"isDefault": true
+			}
+		}
+	]
+}
