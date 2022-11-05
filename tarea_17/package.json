@@ -1,0 +1,12 @@
+{
+  "name": "tarea_17",
+  "version": "1.0.0",
+  "description": "",
+  "main": "tarea17.js",
+  "scripts": {
+    "start": "http-server ."
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
