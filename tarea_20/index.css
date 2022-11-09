@@ -1,0 +1,25 @@
+.container {
+    padding: 2rem;
+    background-color: black;
+    margin: 2px;
+    display: flex;
+    justify-content: center;
+}
+.garbage-container {
+    padding: 2rem;
+    background-color: black;
+    margin: 2px;
+    display: flex;
+    justify-content: center;
+}
+.parrafo.dragging {
+    opacity: 0.7;
+}
+.parrafo {
+    padding: 1rem;
+    background-color: aqua;
+    margin: 1px;
+}
+img {
+    height: 4rem;
+}

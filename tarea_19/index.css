@@ -1,0 +1,25 @@
+.h1, h1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.imgInd {
+    height: 4rem;
+}
+.imgInd.dragging {
+    opacity: 0.3;
+} 
+.col {
+height: 4rem;
+
+}
+div.col {
+    padding: 0;
+    /* margin: 1px; */
+}
+.row {
+    justify-content: center;
+}
+div.row.row-cols-auto {
+    margin-left: -7.4;
+}
